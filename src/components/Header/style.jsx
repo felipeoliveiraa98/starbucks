@@ -5,6 +5,7 @@ export const HeaderStyle = styled.header`
 display: flex;
 justify-content: space-between;
 align-items: center;
+margin: 0 20px;
 `
 export const StyleLink = styled(Link)`
   text-decoration: none;
