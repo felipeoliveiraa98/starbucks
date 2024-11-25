@@ -1,8 +1,8 @@
-
+import { MainStyle, Copo, Section } from "./style"
 
 export default function Home() {
     return (
-        <main>
+        <MainStyle>
             <section>
                  <h2>Mais que Café</h2>
                 <h2>
@@ -18,10 +18,11 @@ export default function Home() {
                 <img src="https://github.com/mariaccarolina/desafioSurpresa/blob/main/src/assets/images/amarelo.png?raw=true" alt="copo amarelo pequeno" />
             </div>
             </section>
-            <section>
-                <img src="" alt="" />
-            </section>
+            <Section>
+                <Copo src="https://github.com/mariaccarolina/desafioSurpresa/blob/main/src/assets/images/laranja2x.png?raw=true" alt="" />
+                <img src="https://github.com/mariaccarolina/desafioSurpresa/blob/main/src/assets/images/Ellipse%201.png?raw=true" alt="" />
+            </Section>
 
-        </main>
+        </MainStyle>
     )
 }
